@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+}
+
+body {
+    height: 200vh;
+    width: 200vw;
+}
+
+.minhadiv {
+    width: 500px;
+    height: 500px;
+    background-color: black;
+}
+
+.minhadiv:hover {
+    width: 1500px;
+    heigth: 1500px;
+    background-color: aqua;
+    transition: 2s;
+}
+
+.input {
+    width: 150px;
+    heigth: 150px;
+    border: 1px solid black;
+}
+
+.input:disabled {
+    width: 150px;
+    heigth: 150px;
+    border: 1px solid red;
+}

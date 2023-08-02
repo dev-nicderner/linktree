@@ -1,0 +1,80 @@
+@import url('https://fonts.cdnfonts.com/css/avatarock');
+
+* {
+    background-color: #040718;
+}
+
+.caixa-para-comentarios {
+    color: #fff;
+    font-family: 'Avatarock', sans-serif;
+    letter-spacing: 0.5px;
+    font-size: 28px;
+    font-style: italic;
+    margin-left: 30%;
+    width: 620px;
+    justify-content: center;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.foto-comentario-1{
+    background-image: url('https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg');
+    justify-content: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin: 40px;
+}
+
+.foto-comentario-2{
+    background-image: url('https://images.pexels.com/photos/3453083/pexels-photo-3453083.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    justify-content: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin: 40px;
+}
+
+.foto-comentario-3{
+    background-image: url('https://images.pexels.com/photos/16881386/pexels-photo-16881386/free-photo-of-cafe-da-manha-5-estrelas.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    justify-content: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin: 40px;
+}
+
+.foto-comentario-4{
+    background-image: url('https://images.pexels.com/photos/845457/pexels-photo-845457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    justify-content: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin: 40px;
+}
+
+.foto-comentario-5{
+    background-image: url('https://images.pexels.com/photos/17280077/pexels-photo-17280077/free-photo-of-camera-maquina-cidade-meio-urbano.jpeg');
+    justify-content: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin: 40px;
+}
+
+.foto-comentario-6{
+    background-image: url('https://images.pexels.com/photos/3692738/pexels-photo-3692738.jpeg');
+    justify-content: center;
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    background-size: cover;
+    margin: 40px;
+}

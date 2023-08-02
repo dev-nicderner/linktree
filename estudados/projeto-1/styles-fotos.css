@@ -1,0 +1,241 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    list-style: none;
+    text-decoration: none;
+}
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+nav {
+    width: 60%
+}
+
+ul {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 19px;
+    transition: .5s;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+li:hover {
+    color: rgb(0, 123, 255);
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+}
+
+.fotografias {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.ordem-fotos {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 20px;
+    column-gap: 40px;
+}
+
+.foto1 {
+    width: 600px;
+    height: 600px;
+    background-image: url('https://i.pinimg.com/originals/e1/d4/08/e1d4086f7131c19943a27e4503a837fc.jpg');
+    background-size: cover;
+    background-position: 30% 15%;
+    cursor: pointer;
+    transition: 1s;
+}
+
+.foto1:hover {
+    transform: scale(1.02);
+}
+
+.foto2 {
+    width: 1000px;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://jpimg.com.br/uploads/2018/05/mamma-mia-2.jpg');
+    cursor: pointer;
+    transition: 1s;
+}
+
+.foto2:hover {
+    transform: scale(1.02);
+}
+
+.foto3 {
+    width: 600px;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://imageio.forbes.com/blogs-images/scottmendelson/files/2018/04/MV5BMTA5NjMxMjA0MzNeQTJeQWpwZ15BbWU4MDA5MzMyNDQz._V1_SX1777_CR001777656_AL_.jpg?format=jpg&width=1200');
+    cursor: pointer;
+    transition: 1s;
+}
+
+.foto3:hover {
+    transform: scale(1.02);
+}
+
+.foto4 {
+    width: 1000px;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://claudia.abril.com.br/wp-content/uploads/2018/07/mammamia26.jpg?quality=85&strip=info');
+    cursor: pointer;
+    transition: 1s;
+}
+
+.foto4:hover {
+    transform: scale(1.02);
+}
+
+.foto5 {
+    width: 600px;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://www.estadao.com.br/resizer/AnTZ6ar4Vw297Y1HdKtC7QjrSo4=/arc-anglerfish-arc2-prod-estadao/public/WQD5ANXKFRLLBO7VNPFG5ONS7I.jpg');
+    cursor: pointer;
+    transition: 1s;
+}
+
+.foto5:hover {
+    transform: scale(1.02);
+}
+
+.foto6 {
+    width: 1000px;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://www.scope.dk/shared/13/746/mamma-mia-here-we-go-again_1200x600c.jpg');
+    cursor: pointer;
+    transition: 1s;
+}
+
+.foto6:hover {
+    transform: scale(1.02);
+}
+
+.foto7 {
+    width: 600px;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://pyxis.nymag.com/v1/imgs/661/d62/f7f796313820c20dd2d7be4361dfbe859f-mamma-mia-2-bts-5.2x.rhorizontal.w700.jpg');
+    cursor: pointer;
+    transition: 1s;
+}
+
+.foto7:hover {
+    transform: scale(1.02);
+}
+
+.foto8 {
+    width: 1000px;
+    height: 600px;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-image: url('https://cdn.ome.lt/eH5Y21EBH4E7_KU7RCJkTPyMnMk=/1200x630/smart/extras/conteudos/lily-james.JPG');
+    cursor: pointer;
+    transition: 1s;
+}
+
+.foto8:hover {
+    transform: scale(1.02);
+}
+
+footer {
+    height: 300px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+span {
+    color: #fff;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+    font-size: 15px;
+}
+
+.footer-navegation {
+    display: none;
+}
+
+.footer-list {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@media(max-width: 768px){
+    .footer-navegation {
+        display: block;
+    }
+
+    nav {
+        display: none;
+    }
+
+    #banner {
+        background-position: 40%;
+    }
+
+    .content {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .trailer {
+        width: 100%;
+    }
+
+    #sinopse {
+        width: 95%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .description {
+        width: 100%;
+    }
+
+    .button {
+        width: 100%;
+        margin-top: 30px;
+    }
+
+    .cards-content {
+        grid-template-columns: 1fr;
+        margin-top: 150px;
+    }
+}

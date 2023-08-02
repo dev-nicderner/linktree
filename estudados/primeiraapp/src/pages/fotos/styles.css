@@ -1,0 +1,86 @@
+#fotos-filme {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.fotos-avatar {
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    row-gap: 60px;
+    column-gap: 40px;
+}
+
+.foto-1-filme{
+    background-image: url('https://cdn2.storyasset.link/3316934f-094a-4cb6-b98e-e0e97d4801ae/AVATAR%20BILHETERIA%20ABRE-ms-chyfltetmu.jpg');
+    background-size: cover;
+    background-position: 30% 15%;
+    cursor: pointer;
+    width: 600px;
+    height: 600px;
+}
+
+.foto-2-filme{
+    background-image: url('https://mundoconectado.com.br/uploads/chamadas/imagem_2022-11-02_114846549.png');
+    background-size: cover;
+    background-position: 30% 15%;
+    cursor: pointer;
+    width: 600px;
+    height: 600px;
+}
+
+.foto-3-filme{
+    background-image: url('https://gkpb.com.br/wp-content/uploads/2022/11/avatar21-e1671457812189.jpg');
+    background-size: cover;
+    background-position: 30% 15%;
+    cursor: pointer;
+    width: 600px;
+    height: 600px;
+}
+
+.foto-4-filme{
+    background-image: url('https://cloud.estacaonerd.com/wp-content/uploads/2022/11/25095535/20220706-avatar-o-caminho-da-agua.jpeg');
+    background-size: cover;
+    background-position: 30% 15%;
+    cursor: pointer;
+    width: 600px;
+    height: 600px;
+}
+
+.foto-5-filme{
+    background-image: url('https://br.web.img3.acsta.net/newsv7/19/10/04/01/13/5346274.jpg');
+    background-size: cover;
+    background-position: 30% 15%;
+    cursor: pointer;
+    width: 600px;
+    height: 600px;
+}
+
+.foto-6-filme{
+    background-image: url('https://lumiere-a.akamaihd.net/v1/images/avatar_6db4410f.jpeg?region=0,0,1280,720&width=960');
+    background-size: cover;
+    background-position: 30% 15%;
+    cursor: pointer;
+    width: 600px;
+    height: 600px;
+}
+
+.foto-7-filme {
+    background-image: url('https://rollingstone.uol.com.br/media/uploads/2023/01/avatar-2-caminho-da-agua-loak-foto-reproducao-20th-century-studios.jpg');
+    background-size: cover;
+    background-position: 30% 15%;
+    cursor: pointer;
+    width: 600px;
+    height: 600px;
+}
+
+.foto-8-filme {
+    background-image: url('https://super.abril.com.br/wp-content/uploads/2022/12/SI_446_playlist_abre.jpg?quality=90&strip=info&w=1024');
+    background-size: cover;
+    background-position: 30% 15%;
+    cursor: pointer;
+    width: 600px;
+    height: 600px;
+}

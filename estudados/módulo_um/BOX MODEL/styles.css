@@ -1,0 +1,30 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+body {
+    height: 200vh;
+    width: 200vw;
+}
+
+.minhaDIV {
+    width: 500px;
+    height: 500px;
+    background-color: khaki;
+}
+
+.filhoDIV {
+    width: 400px;
+    height: 500px;
+    background-color: black;
+}
+
+.absolute {
+    width: 90px;
+    height: 90px;
+    background-color: deeppink;
+    position: absolute;
+    top: 50px;
+}

@@ -1,0 +1,23 @@
+* {
+    margin: 0;
+}
+
+.minhadiv {
+    widht: 500px;
+    height: 400px;
+    background-color: pink;
+}
+
+.caixa {
+    width: 100px;
+    height: 100px;
+    background-color: fuchsia;
+    border: 2px solid blue;
+}
+.caixa:hover {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    border: 2px solid black;
+    transition: 1s;
+}

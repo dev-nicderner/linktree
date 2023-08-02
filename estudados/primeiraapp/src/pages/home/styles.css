@@ -1,0 +1,87 @@
+@import url('https://fonts.cdnfonts.com/css/avatarock');
+
+#banner {
+    background-image: url('https://d2d7ho1ae66ldi.cloudfront.net/ArquivoNoticias/894fc25a-cfa3-11ec-aa6e-9587410378a2/chrome_2022-05-09_11-03-46.png');
+    background-position: 50% 50%;
+    background-size: cover;
+    width: 100%;
+    height: 600px;
+    transition: 2s;
+}
+
+#banner:hover {
+    background-image: url('https://cinepop.com.br/wp-content/uploads/2022/11/avatar2_33.webp');
+}
+
+#trailer-container {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    background-color: #000;
+}
+
+.content {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.trailer {
+    width: 60%;
+}
+
+#sinopse {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 30px;
+}
+
+.description {
+    color: #fff;
+    font-size: 27px;
+    font-family: 'Avatarock', sans-serif;
+    width: 100%;
+    letter-spacing: 0.5px;
+}
+
+.button {
+    width: 200px;
+    height: 60px;
+    background-color: #00e4f5;
+    color: #040718;
+    padding: 8px 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: .8s;
+    font-size: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    margin-top: 25px;
+}
+
+.button:hover {
+    background-color: #fff;
+    color: #040718;
+}
+
+.footer-end {
+    letter-spacing: 2px;
+    color: #fff;
+    font-size: 23px;
+    font-family: 'Avatarock', sans-serif;
+    justify-content: center;
+    text-align: center;
+}
+
+#img-top {
+    width: 180px;
+    margin-top: 30px;
+}

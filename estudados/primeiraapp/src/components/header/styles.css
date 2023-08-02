@@ -1,0 +1,37 @@
+@import url('https://fonts.cdnfonts.com/css/avatar');
+
+header {
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #040718;
+}
+
+nav {
+    width: 60%;
+}
+
+ul {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    color: aliceblue;
+    cursor: pointer;
+    font-size: 22px;
+    transition: .5s;
+    font-family: 'Avatar', sans-serif;
+}
+
+li:hover {
+    color: #00e4f5;
+}
+
+#logo {
+    width: 180px;
+    height: auto;
+}

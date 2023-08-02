@@ -1,0 +1,79 @@
+@import url('https://fonts.cdnfonts.com/css/avatarock');
+
+#area {
+    margin-left: 35%;
+    margin-top: 70px;
+    margin-bottom: 100px;
+    width: 320px;
+    height: 270px;
+  }
+  
+  #area #formulario {
+    position: absolute;
+    display: block;
+  }
+
+  label {
+    background-color:#0e78a7;
+    width: 400px;
+    height: 120px;
+  }
+  
+  fieldset {
+    background-color:#0e78a7;
+    width:400px;
+    height:350px;
+    color: #fff;
+    font-family: 'Avatarock', sans-serif;
+    font-size: 26px;
+    display: grid;
+  }
+  
+  #formulario input.campo_nome {
+    background-color: #00e4f5;
+    position: absolute;
+    border-radius: 10px;
+    border: none;
+    left: 95px;
+    width: 280px;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Avatarock', sans-serif;
+  }
+  
+  #formulario input.campo_email {
+    background-color: #00e4f5;
+    border-radius: 10px;
+    border: none;
+    position: absolute;
+    left: 95px;
+    margin-top: 120px;
+    width: 280px;
+    color: #fff;
+    font-size: 26px;
+    font-family: 'Avatarock', sans-serif;
+  }
+  
+  #formulario textarea.msg {
+    position: absolute;
+    background-color: #00e4f5;
+    border-radius: 10px;
+    border: none;
+    color: #fff;
+    left: 95px;
+    margin-top: 240px;
+    width: 280px;
+    resize: none;
+    font-family: 'Avatarock', sans-serif;
+  }
+  
+  #formulario input.btn_submit {
+    border-style: solid;
+    position: absolute;
+    bottom: 1rem;
+    right: 10px;
+    background-color: #00e4f5;
+    color: #fff;
+    font-family: 'Avatarock', sans-serif;
+    font-size: 25px;
+  }
